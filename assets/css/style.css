@@ -21,17 +21,18 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1.875rem;
-    padding: 2.5rem;
+    padding: 1.5rem;
     border-radius: 20px;
     background-color: #5D6D7E;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 100%;
 }
 
 .display {
     display: flex;
     justify-content: center;
     font-weight: 500;
-    font-size: 5rem;
+    font-size: 4rem;
     background-color: #85929E;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     padding: 1.25rem;
@@ -48,9 +49,9 @@ body {
 .button {
     background-color: #85929E;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: none;
-    padding: 1rem 3.75rem;
+    padding: 1rem 2.75rem;
     border-radius: 10px;
 }
 
